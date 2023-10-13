@@ -1,12 +1,8 @@
--- Create table users which doesn't exit
+-- Script to create a table named "users" with specified attributes and requirements
+
 CREATE TABLE IF NOT EXISTS users (
--- Id should be int never nulll
-id INTEGER AUTO_INCREMENT PRIMARY KEY,
--- Email unique maximum (255 char)
-email VARCHAR(255) NOT  NULL UNIQUE,
-
--- Name should be a maximum (255 char)
+id INTEGER PRIMARY KEY AUTO_INCREMENT,
+email VARCHAR(255) NOT NULL UNIQUE,
 name VARCHAR(255),
-
-country ENUM('US','CO' and 'TN') NOT NULL DEFAULT 'US'
+country ENUM('US', 'CO', 'TN') NOT NULL DEFAULT 'US'
 );
