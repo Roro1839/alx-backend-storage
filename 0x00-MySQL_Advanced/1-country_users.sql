@@ -1,5 +1,5 @@
 --Create table users which doesn't exit
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
 -- Id should be int never nulll
 id INTEGER AUTO_INCREMENT PRIMARY KEY,
 -- Email unique maximum (255 char)
