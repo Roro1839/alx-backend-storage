@@ -1,4 +1,4 @@
---Create table users which doesn't exit
+-- Create table users which doesn't exit
 CREATE TABLE IF NOT EXISTS users (
 -- Id should be int never nulll
 id INTEGER AUTO_INCREMENT PRIMARY KEY,
