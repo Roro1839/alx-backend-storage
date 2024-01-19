@@ -1,0 +1,3 @@
+// create my_db_1 and add one document inside
+use my_db_1
+db.tmp.insert({name: "Holberton school"})

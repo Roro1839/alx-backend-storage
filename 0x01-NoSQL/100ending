@@ -1,0 +1,4 @@
+// script that lists all documents with name ending by on in the
+// collection school
+db.school.find({name: { $regex: /a$/ }})
+//db.school.find({"name": { $regex: /on^/ }})

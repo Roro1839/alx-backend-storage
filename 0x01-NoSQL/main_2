@@ -1,0 +1,11 @@
+// Create 5 databases and insert one document in each of them
+use my_db_1
+db.tmp.insert({name: "Holberton school 1"})
+use my_db_2
+db.tmp.insert({name: "Holberton school 2"})
+use my_db_3
+db.tmp.insert({name: "Holberton school 3"})
+use my_db_4
+db.tmp.insert({name: "Holberton school 4"})
+use my_db_5
+db.tmp.insert({name: "Holberton school 5"})

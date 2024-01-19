@@ -1,0 +1,2 @@
+// sort names in ascending order
+db.school.find().sort({name:-1})
